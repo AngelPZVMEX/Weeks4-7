@@ -14,7 +14,7 @@ public class sliderrotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+       //uses sliders value to rotate object
         Vector3 Rotate = transform.eulerAngles;
         Rotate.z = slider.value;
         transform.eulerAngles = Rotate;

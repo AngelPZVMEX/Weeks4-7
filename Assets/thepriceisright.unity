@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 1153001687}
   - component: {fileID: 1153001686}
   m_Layer: 5
-  m_Name: guess
+  m_Name: final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 208693258}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 360
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1308,6 +1308,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d6cfa50261f61419adb6bc93855c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gold: {fileID: 1990158084748548544, guid: f535f1547489a864683a96d13b775032, type: 3}
+  ring: {fileID: 4383380785192476622, guid: eb26fe347f1fa5945a99af17c773d83f, type: 3}
+  bear: {fileID: 4001009296724204494, guid: e88a20a624e820b459d8a37d6b72b745, type: 3}
+  ram: {fileID: 3687097618751734996, guid: b3b886f62727af24e84fbe6007a017e1, type: 3}
 --- !u!212 &1607451494
 SpriteRenderer:
   m_ObjectHideFlags: 0
